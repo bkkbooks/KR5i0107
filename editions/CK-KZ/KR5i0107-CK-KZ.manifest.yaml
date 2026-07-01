@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR5i0107/CK-KZ/v1
+canonical_location: https://kanripo.org/bkk/KR5i0107/CK-KZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上無極大道三十六部尊經 (啟請科儀)
+  date: '2015-08-29 17:47:44.424544'
+  source:
+    repository: kanripo
+    path: KR5i0107
+  image_base_urls:
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+  edition:
+    short: CK-KZ
+    label: 【重刊道藏輯要】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 1, filename: KR5i0107_001-CK-KZ.yaml, hash: 'sha256:82a148c7f0f516a407df57e833c680b12d6e59de7a27c4964e7b03f25fbc09da'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5i0107_001-CK-KZ.markers.yaml, hash: 'sha256:784a3c470d24867f8a688adf9384eac25f56120dd685bea7305752f6d03caf6b'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: CK-EX_KR5i0107_01p001a
+    span:
+    - body
+    - 0
+    - 6948
+  label: juan 001
+  type: section
+  level: 1
+hash: sha256:de90cee00a5b6b576e0dd978545ccee9b4978e79b81d752208949c470d82b002
